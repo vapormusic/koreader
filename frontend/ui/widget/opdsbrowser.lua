@@ -98,6 +98,11 @@ function OPDSBrowser:init()
              url = "https://bookserver.archive.org/",
           },
           {
+             title = "Internet Archive [Searchable]",
+             url = "https://bookserver.archive.org/opensearch?q=%s",
+             searchable = true,
+          },  
+          {
              title = "Flibusta (Russian)",
              url = "http://www.flibusta.is/opds",
           },
